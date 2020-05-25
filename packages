@@ -1,0 +1,30 @@
+# Command Line Utilities
+sudo apt install vim ranger
+
+# launcher
+
+sudo sh -c "echo 'deb http://download.opensuse.org/repositories/home:/manuelschneid3r/xUbuntu_20.04/ /' > /etc/apt/sources.list.d/home:manuelschneid3r.list"
+wget -nv https://download.opensuse.org/repositories/home:manuelschneid3r/xUbuntu_20.04/Release.key -O Release.key
+sudo apt-key add - < Release.key
+sudo apt-get update
+sudo apt-get install albert
+
+# package manager
+sudo apt install aptitude 
+# Logtech MX Master
+sudo apt install solaar
+
+# deep learning libraries
+# http://support.system76.com/articles/cuda/
+sudo apt install system76-cuda-latest
+#system76-cudnn-10.1
+
+# graphics
+sudo apt install blender inkscape krita darktable
+
+# comms
+sudo apt install slack
+
+# gnome customization
+sudo apt install chrome-gnome-shell
+sudo apt install python3-pip
