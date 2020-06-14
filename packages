@@ -16,19 +16,22 @@ sudo apt install solaar
 
 # deep learning libraries
 # http://support.system76.com/articles/cuda/
-sudo apt install system76-cuda-latest
+sudo apt install system76-cuda-latest system76-cudnn-10.2
+sudo apt install nvidia-cuda-toolkit
 #system76-cudnn-10.1
 
 # graphics
 sudo apt install blender inkscape krita darktable
 
 # comms
-sudo apt install slack
+sudo apt install slack-desktop
 
-# gnome customization
+# customization
 sudo apt install chrome-gnome-shell
-sudo apt install python3-pip
 sudo apt install copyq
+
+sudo apt install python3-pip
+sudo apt install jupyter
 
 # VS Code OSS - https://vscodium.com/
 wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg | sudo apt-key add - 

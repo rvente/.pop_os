@@ -1,1 +1,3 @@
 echo "set -o vi" >> ~/.bashrc
+echo "alias open='xdg-open'" >> ~/.bashrc
+echo "alias code='codium'" >> ~/.bashrc
